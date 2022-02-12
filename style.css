@@ -1,0 +1,30 @@
+canvas
+{
+  border: 1px solid;
+  background-color: rgba(106, 189, 214, 0.384);
+}
+
+.graph {
+	display: flex;
+	align-items: center;
+	margin: 2px;
+}
+
+.bar-name {
+	padding: 0 6px;
+	color: #313131;
+}
+
+.bar-bg {
+	width: 50%;
+	background: #ececec;
+}
+
+.bar {
+	background: #4382ca;
+}
+
+.bar span{
+	color: rgb(206, 206, 206);
+	padding: 0 12px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ort-mnist</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+
+  <script src="mnist.js"></script>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <header>
+    <h1>ORT - MNIST</h1>
+  </header>
+
+
+  <div id="drawing">
+    <canvas id="canvas"></canvas>
+    <canvas id="canvas28"></canvas>
+  </div>
+
+  <div id="bar-graph">
+    <div class="graph">
+      <div>
+        <span class="bar-name">0</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n0" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="graph">
+      <div>
+        <span class="bar-name">1</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n1" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">2</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n2" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">3</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n3" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">4</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n4" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">5</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n5" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">6</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n6" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">7</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n7" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">8</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n8" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph">
+      <div>
+        <span class="bar-name">9</span>
+      </div>
+      <div class="bar-bg">
+        <div class="bar" id="n9" style="width: 0%;">
+          <span>0%</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
